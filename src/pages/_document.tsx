@@ -19,7 +19,13 @@ export default class NextDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
         </Head>
-        <body>
+        <body style={{
+          fontKerning: 'normal',
+          MozFontFeatureSettings: 'kern',
+          WebkitFontFeatureSettings: 'kern',
+          maxHeight: '100vh',
+          overflow: 'scroll'
+        }}>
           <Main />
           <NextScript />
         </body>
