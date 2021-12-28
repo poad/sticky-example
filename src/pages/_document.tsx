@@ -24,7 +24,7 @@ export default class NextDocument extends Document {
           MozFontFeatureSettings: 'kern',
           WebkitFontFeatureSettings: 'kern',
           maxHeight: '100vh',
-          overflow: 'scroll'
+          overflow: 'scroll',
         }}>
           <Main />
           <NextScript />

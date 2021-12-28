@@ -99,7 +99,7 @@ const Home = (): JSX.Element => {
   const theme = useTheme();
   return (
     <Layout>
-      <Box component="main" sx={{ marginTop: '64px', width: '100%', flexGrow: 1, maxHeight: 'calc(100vh - 64px)', overflow: 'scroll'}}>
+      <Box component="main" sx={{ marginTop: '64px', width: '100%', flexGrow: 1, maxHeight: 'calc(100vh - 64px)', overflow: 'scroll' }}>
         <Box sx={{
           margin: '0',
           width: '100%',
