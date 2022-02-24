@@ -9,7 +9,7 @@ permissions:
   contents: write
   deployments: none
   id-token: write
-  issues: none
+  issues: write
   packages: none
   pull-requests: write
   repository-projects: write
