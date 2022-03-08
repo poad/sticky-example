@@ -1056,14 +1056,14 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.0.0", "@typescript-eslint/parser@^5.13.0":
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.13.0.tgz#0394ed8f2f849273c0bf4b811994d177112ced5c"
-  integrity sha512-GdrU4GvBE29tm2RqWOM0P5QfCtgCyN4hXICj/X9ibKED16136l9ZpoJvCL5pSKtmJzA+NRDzQ312wWMejCVVfg==
+"@typescript-eslint/parser@^5.0.0", "@typescript-eslint/parser@^5.14.0":
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.14.0.tgz#7c79f898aa3cff0ceee6f1d34eeed0f034fb9ef3"
+  integrity sha512-aHJN8/FuIy1Zvqk4U/gcO/fxeMKyoSv/rS46UXMXOJKVsLQ+iYPuXNbpbH7cBLcpSbmyyFbwrniLx5+kutu1pw==
   dependencies:
-    "@typescript-eslint/scope-manager" "5.13.0"
-    "@typescript-eslint/types" "5.13.0"
-    "@typescript-eslint/typescript-estree" "5.13.0"
+    "@typescript-eslint/scope-manager" "5.14.0"
+    "@typescript-eslint/types" "5.14.0"
+    "@typescript-eslint/typescript-estree" "5.14.0"
     debug "^4.3.2"
 
 "@typescript-eslint/scope-manager@5.13.0":
@@ -1470,9 +1470,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001283, caniuse-lite@^1.0.30001313:
-  version "1.0.30001313"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz#a380b079db91621e1b7120895874e2fd62ed2e2f"
-  integrity sha512-rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q==
+  version "1.0.30001314"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001314.tgz#65c7f9fb7e4594fca0a333bec1d8939662377596"
+  integrity sha512-0zaSO+TnCHtHJIbpLroX7nsD+vYuOVjl3uzFbJO1wMVbuveJA0RK2WcQA9ZUIOiO0/ArMiMgHJLxfEZhQiC0kw==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -1759,9 +1759,9 @@ duplexer2@^0.1.2:
     readable-stream "^2.0.2"
 
 electron-to-chromium@^1.4.76:
-  version "1.4.76"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.76.tgz#a0494baedaf51094b1c172999919becd9975a934"
-  integrity sha512-3Vftv7cenJtQb+k00McEBZ2vVmZ/x+HEF7pcZONZIkOsESqAqVuACmBxMv0JhzX7u0YltU0vSqRqgBSTAhFUjA==
+  version "1.4.77"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.77.tgz#c26e454cb8721d4ebdae3e276c57cd32e51c32ed"
+  integrity sha512-fiDxw8mO9Ph1Z0bjX2sFTPpi0J0QkOiwOJF+5Q0J0baNc/F9lLePAvDPlnoxvbUYYMizqrKPeotRRkJ9LtxAew==
 
 emittery@^0.8.1:
   version "0.8.1"
