@@ -4,7 +4,6 @@ module.exports = {
     browser: true,
     node: true,
     es2021: true,
-    jest: true
   },
   parserOptions: {
     ecmaFeatures: {
@@ -20,8 +19,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended'
   ],
   plugins: [
-    'react',
-    'jest'
+    'react'
   ],
   settings: {
     react: {
