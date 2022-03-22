@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest --passWithNoTests",
     "dev": "next",
-    "prebuild": "rimraf .next",
+    "clean": "rimraf .next",
     "build": "next build && next export",
     "start": "next start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
