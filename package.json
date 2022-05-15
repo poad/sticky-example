@@ -9,6 +9,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "analyze": "ANALYZE=true next build",
     "all": "yarn install && yarn lint && yarn build && yarn test"
   },
   "dependencies": {
@@ -20,11 +21,16 @@
     "@mui/material": "*",
     "@mui/styles": "*",
     "@types/react": "*",
+    "autoprefixer": "*",
     "next": "*",
+    "postcss": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "tailwindcss": "*",
+    "web-vitals": "*"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "*",
     "@types/node": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
@@ -39,6 +45,7 @@
     "eslint-plugin-jsx-a11y": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
+    "next-compose-plugins": "*",
     "rimraf": "*",
     "typescript": "*"
   }
