@@ -2,6 +2,7 @@
   "name": "sticky-example",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "test": "jest --passWithNoTests",
     "dev": "next",
@@ -24,8 +25,13 @@
     "autoprefixer": "*",
     "next": "*",
     "postcss": "*",
-    "react": "*",
-    "react-dom": "*",
+    "preact": "*",
+    "preact-render-to-string": "*",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
+    "react-hook-form": "*",
+    "react-loader": "*",
+    "react-ssr-prepass": "npm:preact-ssr-prepass",
     "tailwindcss": "*",
     "web-vitals": "*"
   },
@@ -46,6 +52,7 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "next-compose-plugins": "*",
+    "next-plugin-preact": "*",
     "rimraf": "*",
     "typescript": "*"
   }

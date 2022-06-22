@@ -1,13 +1,10 @@
 /** @type {import('next').NextConfig} */
-const withPlugins = require('next-compose-plugins');
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-    enabled: process.env.ANALYZE === 'true',
-});
+import withBundleAnalyzer from '@next/bundle-analyzer';
+import withPreact from 'next-plugin-preact';
 
-module.exports = withPlugins([
-    [withBundleAnalyzer],
-],
-    {
+export default withBundleAnalyzer({
+    enabled: process.env.ANALYZE === 'true',
+})(withPreact({
         webpack5: true,
         reactStrictMode: true,
         esmExternals: true,
@@ -17,4 +14,4 @@ module.exports = withPlugins([
             modern: true,
         }
     }
-);
+));
