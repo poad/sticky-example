@@ -1,17 +1,14 @@
 /** @type {import('next').NextConfig} */
-import withBundleAnalyzer from '@next/bundle-analyzer';
-import withPreact from 'next-plugin-preact';
+const withBundleAnalyzer = require('@next/bundle-analyzer');
+const withPreact = require('next-plugin-preact');
 
-export default withBundleAnalyzer({
+module.exports = withBundleAnalyzer({
     enabled: process.env.ANALYZE === 'true',
 })(withPreact({
-        webpack5: true,
         reactStrictMode: true,
-        esmExternals: true,
-        swcLoader: true,
         swcMinify: true,
         experimental: {
-            modern: true,
+            esmExternals: true,
         }
     }
 ));
