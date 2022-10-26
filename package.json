@@ -25,13 +25,10 @@
     "autoprefixer": "*",
     "next": "^12",
     "postcss": "*",
-    "preact": "*",
-    "preact-render-to-string": "*",
-    "react": "npm:@preact/compat",
-    "react-dom": "npm:@preact/compat",
+    "react": "*",
+    "react-dom": "*",
     "react-hook-form": "*",
     "react-loader": "*",
-    "react-ssr-prepass": "npm:preact-ssr-prepass",
     "tailwindcss": "*",
     "web-vitals": "*"
   },
@@ -52,7 +49,6 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "next-compose-plugins": "*",
-    "next-plugin-preact": "*",
     "rimraf": "*",
     "typescript": "*"
   }
