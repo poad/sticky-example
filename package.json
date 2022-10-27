@@ -23,7 +23,7 @@
     "@mui/styles": "*",
     "@types/react": "*",
     "autoprefixer": "*",
-    "next": "^12",
+    "next": "^13",
     "postcss": "*",
     "react": "*",
     "react-dom": "*",
