@@ -51,5 +51,8 @@
     "next-compose-plugins": "*",
     "rimraf": "*",
     "typescript": "*"
+  },
+  "resolutions": {
+    "json5": ">=2.2.2"
   }
 }
