@@ -2266,10 +2266,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lru-cache@^7.14.1:
-  version "7.18.3"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.18.3.tgz#f793896e0fd0e954a59dfdd82f0773808df6aa89"
-  integrity sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==
+lru-cache@^9.0.0:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-9.0.1.tgz#ac061ed291f8b9adaca2b085534bb1d3b61bef83"
+  integrity sha512-C8QsKIN1UIXeOs3iWmiZ1lQY+EnKDojWd37fXy1aSbJvH4iSma1uy2OWuoB3m4SYRli5+CUjDv3Dij5DVoetmg==
 
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
@@ -2303,10 +2303,15 @@ minimist@^1.2.6, minimist@~1.2.5:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
-minipass@^4.0.2, minipass@^4.2.4:
+minipass@^4.2.4:
   version "4.2.7"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.2.7.tgz#14c6fc0dcab54d9c4dd64b2b7032fef04efec218"
   integrity sha512-ScVIgqHcXRMyfflqHmEW0bm8z8rb5McHyOY3ewX9JBgZaR77G7nxq9L/mtV96/QbAAwtbCAHVVLzD1kkyfFQEw==
+
+minipass@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-5.0.0.tgz#3e9788ffb90b694a5d0ec94479a45b5d8738133d"
+  integrity sha512-3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==
 
 mrmime@^1.0.0:
   version "1.0.1"
@@ -2560,12 +2565,12 @@ path-parse@^1.0.7:
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-scurry@^1.6.1:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/path-scurry/-/path-scurry-1.6.3.tgz#4eba7183d64ef88b63c7d330bddc3ba279dc6c40"
-  integrity sha512-RAmB+n30SlN+HnNx6EbcpoDy9nwdpcGPnEKrJnu6GZoDWBdIjo1UQMVtW2ybtC7LC2oKLcMq8y5g8WnKLiod9g==
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/path-scurry/-/path-scurry-1.6.4.tgz#020a9449e5382a4acb684f9c7e1283bc5695de66"
+  integrity sha512-Qp/9IHkdNiXJ3/Kon++At2nVpnhRiPq/aSvQN+H3U1WZbvNRK0RIQK/o4HMqPoXjpuGJUEWpHSs6Mnjxqh3TQg==
   dependencies:
-    lru-cache "^7.14.1"
-    minipass "^4.0.2"
+    lru-cache "^9.0.0"
+    minipass "^5.0.0"
 
 path-type@^4.0.0:
   version "4.0.0"
