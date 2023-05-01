@@ -25,6 +25,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "baseUrl": "src",
+    "jsxImportSource": "@emotion/react",
     "typeRoots": [
       "./node_modules/@types"
     ],

@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode, useState } from 'react';
 import {
   AppBar, Box, CssBaseline, Divider, Drawer, IconButton, List, ListItem, ListItemIcon, ListItemText, Toolbar, Typography,
 } from '@mui/material';
@@ -15,10 +15,10 @@ interface LayoutProps {
   children: ReactNode
 }
 
-const Layout: React.FC<LayoutProps> = (props) => {
+function Layout(props: LayoutProps) {
   const { container } = props;
   const theme = useTheme();
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   function handleDrawerToggle() {
     setMobileOpen(!mobileOpen);

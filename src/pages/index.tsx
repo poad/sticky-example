@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Typography, Paper, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, useTheme, tableCellClasses } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
@@ -95,7 +94,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 
-const Home = (): JSX.Element => {
+function Home() {
   const theme = useTheme();
   return (
     <Layout>
