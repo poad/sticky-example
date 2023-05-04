@@ -10,8 +10,12 @@
     "export": "echo \"no action in script. Please run yarn build (includes next export)\"",
     "start": "next start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "lint-fix": "eslint --ext .ts,.js,.tsx,.jsx src --fix",
     "analyze": "ANALYZE=true next build",
-    "all": "yarn install && yarn lint && yarn build && yarn test"
+    "all": "yarn lint && yarn build && yarn test",
+    "prelint": "yarn install",
+    "prelint-fix": "yarn install",
+    "prebuild": "yarn install"
   },
   "dependencies": {
     "@emotion/cache": "*",
@@ -51,8 +55,5 @@
     "next-compose-plugins": "*",
     "rimraf": "*",
     "typescript": "*"
-  },
-  "resolutions": {
-    "json5": ">=2.2.2"
   }
 }
