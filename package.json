@@ -6,7 +6,7 @@
     "test": "jest --passWithNoTests",
     "dev": "next",
     "clean": "rimraf .next",
-    "build": "next build && next export",
+    "build": "next build",
     "export": "echo \"no action in script. Please run yarn build (includes next export)\"",
     "start": "next start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",

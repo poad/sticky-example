@@ -1,8 +1,6 @@
 import { Box, Typography, Paper, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, useTheme, tableCellClasses } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-import Layout from '../components/Layout';
-
 interface Column {
   id: 'name' | 'code' | 'population' | 'size' | 'density';
   label: string;
@@ -97,7 +95,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 function Home() {
   const theme = useTheme();
   return (
-    <Layout>
+    <>
       <Box component="main" sx={{ marginTop: '64px', width: '100%', flexGrow: 1, maxHeight: 'calc(100vh - 64px)', overflow: 'scroll' }}>
         <Box sx={{
           margin: '0',
@@ -154,7 +152,7 @@ function Home() {
           </TableContainer>
         </Paper>
       </Box>
-    </Layout>
+    </>
   );
 };
 

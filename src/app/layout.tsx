@@ -1,22 +1,23 @@
+'use client';
+import defaultTheme from './styles/theme';
+import Head from 'next/head';
+
 import { ReactNode, useState } from 'react';
 import {
-  AppBar, Box, CssBaseline, Divider, Drawer, IconButton, List, ListItem, ListItemIcon, ListItemText, Toolbar, Typography,
+  AppBar, Box, CssBaseline, Divider, Drawer, IconButton, List, ListItem, ListItemIcon, ListItemText, ThemeProvider, Toolbar, Typography,
 } from '@mui/material';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import MenuIcon from '@mui/icons-material/Menu';
 import {
   useTheme,
 } from '@mui/material/styles';
+import './styles/Layout.module.css';
 
 const drawerWidth = 240;
 
-interface LayoutProps {
-  container?: Element,
+function Base({ children }: {
   children: ReactNode
-}
-
-function Layout(props: LayoutProps) {
-  const { container } = props;
+}) {
   const theme = useTheme();
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -72,7 +73,6 @@ function Layout(props: LayoutProps) {
       display='contents'
     >
       <Drawer
-        container={container}
         variant="temporary"
         anchor='left'
         open={mobileOpen}
@@ -92,9 +92,41 @@ function Layout(props: LayoutProps) {
       <CssBaseline />
       {appBar}
       {drawerBox}
-      {props.children}
+      {children}
     </Box>
   );
 };
 
-export default Layout;
+export default function Layout({ children }: {
+  children: ReactNode
+}) {
+  return (
+    <html lang="en">
+      <Head>
+        {/* PWA primary color */}
+        <meta name="theme-color" content={defaultTheme.palette.primary.main} />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
+      </Head>
+      <body style={{
+        fontKerning: 'normal',
+        MozFontFeatureSettings: 'kern',
+        WebkitFontFeatureSettings: 'kern',
+        maxHeight: '100vh',
+        overflow: 'scroll',
+      }}>
+        <ThemeProvider theme={defaultTheme}>
+          {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+          {/* ThemeProvider makes the theme available down the React
+          tree thanks to React context. */}
+
+          <CssBaseline />
+          <Base>{children}</Base>
+        </ThemeProvider>
+      </body>
+    </html>
+  );
+}
