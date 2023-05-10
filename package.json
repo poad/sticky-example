@@ -15,32 +15,29 @@
     "all": "yarn lint && yarn build && yarn test",
     "prelint": "yarn install",
     "prelint-fix": "yarn install",
-    "prebuild": "yarn install"
+    "prebuild": "yarn install",
+    "postinstall": "typewind generate"
   },
   "dependencies": {
-    "@emotion/cache": "*",
     "@emotion/react": "*",
     "@emotion/server": "*",
     "@emotion/styled": "*",
     "@mui/icons-material": "*",
     "@mui/material": "*",
-    "@mui/styles": "*",
-    "@types/react": "*",
-    "autoprefixer": "*",
     "next": "^13",
-    "postcss": "*",
     "react": "*",
     "react-dom": "*",
     "react-hook-form": "*",
     "react-loader": "*",
-    "tailwindcss": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13",
     "@types/node": "*",
+    "@types/react": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
+    "autoprefixer": "*",
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
     "eslint-config-airbnb-typescript": "*",
@@ -52,8 +49,10 @@
     "eslint-plugin-jsx-a11y": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
-    "next-compose-plugins": "*",
+    "postcss": "*",
     "rimraf": "*",
-    "typescript": "*"
+    "tailwindcss": "*",
+    "typescript": "*",
+    "typewind": "*"
   }
 }

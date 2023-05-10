@@ -1,21 +1,37 @@
 'use client';
-import defaultTheme from './styles/theme';
 import Head from 'next/head';
-
 import { ReactNode, useState } from 'react';
+import { Inter } from 'next/font/google';
 import {
-  AppBar, Box, CssBaseline, Divider, Drawer, IconButton, List, ListItem, ListItemIcon, ListItemText, ThemeProvider, Toolbar, Typography,
+  AppBar,
+  Box,
+  CssBaseline,
+  Divider,
+  Drawer,
+  IconButton,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  Toolbar,
+  ThemeProvider,
+  Typography,
 } from '@mui/material';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import MenuIcon from '@mui/icons-material/Menu';
-import {
-  useTheme,
-} from '@mui/material/styles';
-import './styles/Layout.module.css';
+import './styles/globals.css';
+import { useTheme } from '@mui/material/styles';
+import defaultTheme from './styles/theme';
 
 const drawerWidth = 240;
 
-function Base({ children }: {
+const font = Inter({
+  weight: '400',
+  subsets: ['latin-ext'],
+  display: 'swap',
+});
+
+export default function Layout({ children }: {
   children: ReactNode
 }) {
   const theme = useTheme();
@@ -26,20 +42,33 @@ function Base({ children }: {
   }
 
   const drawer = (
-    <Box sx={{ width: drawerWidth, backgroundColor: theme.palette.primary.main, color: theme.palette.primary.contrastText }}>
+    <Box
+      sx={{
+        width: drawerWidth,
+        backgroundColor: theme.palette.primary.main,
+        color: theme.palette.primary.contrastText,
+      }}
+      className={font.className}
+    >
       <Box sx={theme.mixins.toolbar} />
       <Divider />
       <List>
         {['Info'].map((text) => (
-          <ListItem button key={text} sx={{
-            width: drawerWidth,
-            backgroundColor: theme.palette.primary.main,
-            '&:hover': {
-              backgroundColor: theme.palette.primary.light,
-            },
-          }}>
+          <ListItem
+            button
+            key={text}
+            sx={{
+              width: drawerWidth,
+              backgroundColor: theme.palette.primary.main,
+              '&:hover': {
+                backgroundColor: theme.palette.primary.light,
+              },
+            }}
+          >
             <ListItemIcon>
-              <DashboardIcon sx={{ color: theme.palette.primary.contrastText }} />
+              <DashboardIcon
+                sx={{ color: theme.palette.primary.contrastText }}
+              />
             </ListItemIcon>
             <ListItemText primary={text} />
           </ListItem>
@@ -59,26 +88,30 @@ function Base({ children }: {
         >
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" noWrap></Typography>
+        <Typography variant="h6" noWrap />
       </Toolbar>
     </AppBar>
   );
 
   const drawerBox = (
     <Box
-      component='nav'
-      textAlign='center'
+      component="nav"
+      textAlign="center"
       sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
       aria-label="folders"
-      display='contents'
+      display="contents"
     >
       <Drawer
         variant="temporary"
-        anchor='left'
+        anchor="left"
         open={mobileOpen}
         onClose={handleDrawerToggle}
         sx={{
-          '& .MuiDrawer-paper': { backgroundColor: theme.palette.primary.main, boxSizing: 'border-box', width: drawerWidth },
+          '& .MuiDrawer-paper': {
+            backgroundColor: theme.palette.primary.main,
+            boxSizing: 'border-box',
+            width: drawerWidth,
+          },
         }}
         ModalProps={{ keepMounted: true }}
       >
@@ -87,19 +120,6 @@ function Base({ children }: {
     </Box>
   );
 
-  return (
-    <Box sx={{ color: theme.palette.primary.contrastText, display: 'flex', maxHeight: '100vh' }}>
-      <CssBaseline />
-      {appBar}
-      {drawerBox}
-      {children}
-    </Box>
-  );
-};
-
-export default function Layout({ children }: {
-  children: ReactNode
-}) {
   return (
     <html lang="en">
       <Head>
@@ -124,7 +144,9 @@ export default function Layout({ children }: {
           tree thanks to React context. */}
 
           <CssBaseline />
-          <Base>{children}</Base>
+          {appBar}
+          {drawerBox}
+          {children}
         </ThemeProvider>
       </body>
     </html>
