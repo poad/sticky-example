@@ -1,40 +1,8 @@
 'use client';
-import { Box, Typography, Paper, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, useTheme, tableCellClasses } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Box, Typography, Paper, useTheme } from '@mui/material';
+import MaterialReactTable, { type MRT_ColumnDef } from 'material-react-table';
+import { useMemo } from 'react';
 
-interface Column {
-  id: 'name' | 'code' | 'population' | 'size' | 'density';
-  label: string;
-  minWidth?: number;
-  align?: 'right';
-  format?: (value: number) => string;
-}
-
-const columns: readonly Column[] = [
-  { id: 'name', label: 'Name', minWidth: 170 },
-  { id: 'code', label: 'ISO\u00a0Code', minWidth: 100 },
-  {
-    id: 'population',
-    label: 'Population',
-    minWidth: 170,
-    align: 'right',
-    format: (value: number) => value.toLocaleString('en-US'),
-  },
-  {
-    id: 'size',
-    label: 'Size\u00a0(km\u00b2)',
-    minWidth: 170,
-    align: 'right',
-    format: (value: number) => value.toLocaleString('en-US'),
-  },
-  {
-    id: 'density',
-    label: 'Density',
-    minWidth: 170,
-    align: 'right',
-    format: (value: number) => value.toFixed(2),
-  },
-];
 
 interface Data {
   name: string;
@@ -54,7 +22,7 @@ function createData(
   return { name, code, population, size, density };
 }
 
-const rows = [
+const data = [
   createData('India', 'IN', 1324171354, 3287263),
   createData('China', 'CN', 1403500365, 9596961),
   createData('Italy', 'IT', 60483973, 301340),
@@ -72,28 +40,18 @@ const rows = [
   createData('Brazil', 'BR', 210147125, 8515767),
 ];
 
-const StyledTableCell = styled(TableCell)(({ theme }) => ({
-  [`&.${tableCellClasses.head}`]: {
-    backgroundColor: theme.palette.secondary.main,
-    color: theme.palette.common.white,
-  },
-  [`&.${tableCellClasses.body}`]: {
-    fontSize: 14,
-  },
-}));
-
-const StyledTableRow = styled(TableRow)(({ theme }) => ({
-  '&:nth-of-type(odd)': {
-    backgroundColor: theme.palette.action.hover,
-  },
-  // hide last border
-  '&:last-child td, &:last-child th': {
-    border: 0,
-  },
-}));
-
-
 function Home() {
+  const columns = useMemo<MRT_ColumnDef<Data>[]>(
+    () => [
+      { accessorKey: 'name', header: 'Name' },
+      { accessorKey: 'code', header: 'ISO\u00a0Code' },
+      { accessorKey: 'population', header: 'Population' },
+      { accessorKey: 'size', header: 'Size\u00a0(km\u00b2)' },
+      { accessorKey: 'density', header: 'Density' },
+    ],
+    []
+  );
+
   const theme = useTheme();
   return (
     <>
@@ -115,42 +73,12 @@ function Home() {
         </Box>
 
         <Paper sx={{ width: '100%', overflow: 'revert' }} elevation={0}>
-          <TableContainer sx={{ height: 'calc(100vh - 64px)', overflow: 'revert' }}>
-            <Table stickyHeader aria-label="sticky table">
-              <TableHead>
-                <TableRow>
-                  {columns.map((column) => (
-                    <StyledTableCell
-                      key={column.id}
-                      align={column.align}
-                      style={{ minWidth: column.minWidth }}
-                    >
-                      {column.label}
-                    </StyledTableCell>
-                  ))}
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {rows
-                  .map((row) => {
-                    return (
-                      <StyledTableRow hover role="checkbox" tabIndex={-1} key={row.code}>
-                        {columns.map((column) => {
-                          const value = row[column.id];
-                          return (
-                            <StyledTableCell key={column.id} align={column.align} component={'th'}>
-                              {column.format && typeof value === 'number'
-                                ? column.format(value)
-                                : value}
-                            </StyledTableCell>
-                          );
-                        })}
-                      </StyledTableRow>
-                    );
-                  })}
-              </TableBody>
-            </Table>
-          </TableContainer>
+          <MaterialReactTable
+            enableStickyHeader
+            muiTableContainerProps={{ sx:{ height: 'calc(100vh - 64px)', overflow: 'revert' } }}
+            columns={columns} 
+            data={data} 
+          />
         </Paper>
       </Box>
     </>
