@@ -15,8 +15,10 @@
     "all": "yarn lint && yarn build && yarn test",
     "prelint": "yarn install",
     "prelint-fix": "yarn install",
-    "prebuild": "yarn install",
-    "postinstall": "typewind generate"
+    "prebuild": "yarn generate",
+    "generate": "typewind generate",
+    "predev": "yarn generate",
+    "pregenerate": "yarn install"
   },
   "dependencies": {
     "@emotion/react": "*",
