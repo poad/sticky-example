@@ -2872,9 +2872,9 @@ lru-cache@^9.1.1:
   integrity sha512-65/Jky17UwSb0BuB9V+MyDpsOtXKmYwzhyl+cOa9XUiI4uV2Ouy/2voFP3+al0BjZbJgMBD8FojMpAf+Z+qn4A==
 
 material-react-table@*:
-  version "1.11.3"
-  resolved "https://registry.yarnpkg.com/material-react-table/-/material-react-table-1.11.3.tgz#449daea9956edb07f50b90a7cf95bbc9f5dd86c3"
-  integrity sha512-Myrpl9gCOhiwrEbTpecG3mVmX3irZNYqMiifskFNrf6tZimzR/C2NNQLOng9HMD+eAdI/zfdKH8qlpdqBd9CFw==
+  version "1.11.4"
+  resolved "https://registry.yarnpkg.com/material-react-table/-/material-react-table-1.11.4.tgz#807db1e151f8ef84b6c60e095968e3ae315b8edf"
+  integrity sha512-PPDylH63UFiwUjZR7djE22qumFXkM4IW6rcvjlFVzsFcvlaVcowBDsXc5fqINORoyxeRvfk/LSAfv/htuwRMEg==
   dependencies:
     "@tanstack/match-sorter-utils" "8.8.4"
     "@tanstack/react-table" "8.9.1"
@@ -3647,6 +3647,7 @@ string-natural-compare@^3.0.1:
   integrity sha512-n3sPwynL1nwKi3WJ6AIsClwBMa0zTi54fn2oLU6ndfTSIO05xaznjSf15PcBZU6FNWbmN5Q6cxT4V5hGvB4taw==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
