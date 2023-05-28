@@ -2906,9 +2906,9 @@ lru-cache@^9.1.1:
   integrity sha512-65/Jky17UwSb0BuB9V+MyDpsOtXKmYwzhyl+cOa9XUiI4uV2Ouy/2voFP3+al0BjZbJgMBD8FojMpAf+Z+qn4A==
 
 material-react-table@*:
-  version "1.11.4"
-  resolved "https://registry.yarnpkg.com/material-react-table/-/material-react-table-1.11.4.tgz#807db1e151f8ef84b6c60e095968e3ae315b8edf"
-  integrity sha512-PPDylH63UFiwUjZR7djE22qumFXkM4IW6rcvjlFVzsFcvlaVcowBDsXc5fqINORoyxeRvfk/LSAfv/htuwRMEg==
+  version "1.11.5"
+  resolved "https://registry.yarnpkg.com/material-react-table/-/material-react-table-1.11.5.tgz#0cd77bfdea765c7c7fcb2155c3340a5760b282d8"
+  integrity sha512-a36rYggEqb+GRkqp0M3Ade1lvV1FVSGDeyQGybfl53HOhKV+GypwEyIt5mqK4FMD8sKJ/AcawZWWXJwWR/oMgQ==
   dependencies:
     "@tanstack/match-sorter-utils" "8.8.4"
     "@tanstack/react-table" "8.9.1"
