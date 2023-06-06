@@ -30,10 +30,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "sourceRoot": "src",
-    "baseUrl": ".",
     "typeRoots": [
-      "./node_modules/@types",
-      ".next"
+      "./node_modules/@types"
     ],
     "paths": {
       "~/*": [
@@ -46,10 +44,6 @@
         "../*"
       ]
     },
-    "types": [
-      "node",
-      "react"
-    ],
     "jsxImportSource": "@emotion/react",
     "incremental": true
   },
