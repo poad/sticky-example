@@ -150,10 +150,10 @@ packages:
       '@babel/generator': 7.22.5
       '@babel/helper-compilation-targets': 7.22.6(@babel/core@7.22.5)
       '@babel/helper-module-transforms': 7.22.5
-      '@babel/helpers': 7.22.5
+      '@babel/helpers': 7.22.6
       '@babel/parser': 7.22.6
       '@babel/template': 7.22.5
-      '@babel/traverse': 7.22.5
+      '@babel/traverse': 7.22.6
       '@babel/types': 7.22.5
       convert-source-map: 1.9.0
       debug: 4.3.4
@@ -252,7 +252,7 @@ packages:
       '@babel/helper-split-export-declaration': 7.22.6
       '@babel/helper-validator-identifier': 7.22.5
       '@babel/template': 7.22.5
-      '@babel/traverse': 7.22.5
+      '@babel/traverse': 7.22.6
       '@babel/types': 7.22.5
     transitivePeerDependencies:
       - supports-color
@@ -277,7 +277,7 @@ packages:
       '@babel/helper-member-expression-to-functions': 7.22.5
       '@babel/helper-optimise-call-expression': 7.22.5
       '@babel/template': 7.22.5
-      '@babel/traverse': 7.22.5
+      '@babel/traverse': 7.22.6
       '@babel/types': 7.22.5
     transitivePeerDependencies:
       - supports-color
@@ -314,12 +314,12 @@ packages:
     resolution: {integrity: sha512-R3oB6xlIVKUnxNUxbmgq7pKjxpru24zlimpE8WK47fACIlM0II/Hm1RS8IaOI7NgCr6LNS+jl5l75m20npAziw==}
     engines: {node: '>=6.9.0'}
 
-  /@babel/helpers@7.22.5:
-    resolution: {integrity: sha512-pSXRmfE1vzcUIDFQcSGA5Mr+GxBV9oiRKDuDxXvWQQBCh8HoIjs/2DlDB7H8smac1IVrB9/xdXj2N3Wol9Cr+Q==}
+  /@babel/helpers@7.22.6:
+    resolution: {integrity: sha512-YjDs6y/fVOYFV8hAf1rxd1QvR9wJe1pDBZ2AREKq/SDayfPzgk0PBnVuTCE5X1acEpMMNOVUqoe+OwiZGJ+OaA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/template': 7.22.5
-      '@babel/traverse': 7.22.5
+      '@babel/traverse': 7.22.6
       '@babel/types': 7.22.5
     transitivePeerDependencies:
       - supports-color
@@ -442,8 +442,8 @@ packages:
       '@babel/parser': 7.22.6
       '@babel/types': 7.22.5
 
-  /@babel/traverse@7.22.5:
-    resolution: {integrity: sha512-7DuIjPgERaNo6r+PZwItpjCZEa5vyw4eJGufeLxrPdBXBoLcCJCIasvK6pK/9DVNrLZTLFhUGqaC6X/PA007TQ==}
+  /@babel/traverse@7.22.6:
+    resolution: {integrity: sha512-53CijMvKlLIDlOTrdWiHileRddlIiwUIyCKqYa7lYnnPldXCG5dUSN38uT0cA6i7rHWNKJLH0VU/Kxdr1GzB3w==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.22.5
