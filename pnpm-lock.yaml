@@ -47,8 +47,8 @@ dependencies:
 
 devDependencies:
   '@next/bundle-analyzer':
-    specifier: ^13.4.17
-    version: 13.4.17
+    specifier: ^13.4.19
+    version: 13.4.19
   '@types/node':
     specifier: ^20.5.1
     version: 20.5.1
@@ -1050,8 +1050,8 @@ packages:
       react-is: 18.2.0
     dev: false
 
-  /@next/bundle-analyzer@13.4.17:
-    resolution: {integrity: sha512-bU7O9Wxx2rIMBstQpldLjBmZhqduzn34IVd+mGkRUdYujEdMRopp/aWy6bL/5J5kr//KnrIskHPHUV8ytSj7rA==}
+  /@next/bundle-analyzer@13.4.19:
+    resolution: {integrity: sha512-nXKHz63dM0Kn3XPFOKrv2wK+hP9rdBg2iR1PsxuXLHVBoZhMyS1/ldRcX80YFsm2VUws9zM4a0E/1HlLI+P92g==}
     dependencies:
       webpack-bundle-analyzer: 4.7.0
     transitivePeerDependencies:
