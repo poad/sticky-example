@@ -1,5 +1,5 @@
 name: Build and Test
- 
+
 on:
   push:
     branches:
@@ -34,7 +34,6 @@ jobs:
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 8.6.1
           run_install: |
             - recursive: true
               args: [--frozen-lockfile, --strict-peer-dependencies]
