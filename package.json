@@ -32,7 +32,7 @@
     "@mui/material": "^5.14.15",
     "@tailwindcss/container-queries": "^0.1.1",
     "material-react-table": "^1.15.1",
-    "next": "^13.5.6",
+    "next": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.47.0",
@@ -40,7 +40,7 @@
     "web-vitals": "^3.5.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.5.6",
+    "@next/bundle-analyzer": "^14.0.0",
     "@storybook/addon-essentials": "^7.5.1",
     "@storybook/addon-interactions": "^7.5.1",
     "@storybook/addon-links": "^7.5.1",
@@ -58,7 +58,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^13.5.6",
+    "eslint-config-next": "^14.0.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.29.0",
