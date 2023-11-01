@@ -1,6 +1,6 @@
 'use client';
 import { Box, Typography, Paper } from '@mui/material';
-import MaterialReactTable, { type MRT_ColumnDef } from 'material-react-table';
+import { MaterialReactTable, type MRT_ColumnDef } from 'material-react-table';
 import { useMemo } from 'react';
 import { data } from './data';
 
