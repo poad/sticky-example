@@ -3661,7 +3661,7 @@ packages:
       '@storybook/api': 7.5.3(react-dom@18.2.0)(react@18.2.0)
       '@storybook/components': 7.5.3(@types/react@18.2.36)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-common': 7.5.3
-      '@storybook/core-events': 7.5.2
+      '@storybook/core-events': 7.5.3
       '@storybook/manager-api': 7.5.3(react-dom@18.2.0)(react@18.2.0)
       '@storybook/node-logger': 7.5.3
       '@storybook/preview-api': 7.5.3
@@ -4023,12 +4023,6 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
-    dev: true
-
-  /@storybook/core-events@7.5.2:
-    resolution: {integrity: sha512-DV8bFEFVKDEvaH87KYPXDE0YEV+Y9yjFv2xxmC9pF8l+MWCtVW72RBLhB+gU5NM1bkHrRDNb0lOJfVGKlhxOog==}
-    dependencies:
-      ts-dedent: 2.2.0
     dev: true
 
   /@storybook/core-events@7.5.3:
@@ -4855,10 +4849,6 @@ packages:
 
   /@types/js-levenshtein@1.1.2:
     resolution: {integrity: sha512-/NCbMABw2uacuyE16Iwka1EzREDD50/W2ggRBad0y1WHBvAkvR9OEINxModVY7D428gXBe0igeVX7bUc9GaslQ==}
-    dev: true
-
-  /@types/json-schema@7.0.14:
-    resolution: {integrity: sha512-U3PUjAudAdJBeC2pgN8uTIKgxrb4nlDF3SF0++EldXQvQBGkpFZMSnwQiIoDU77tv45VgNkl/L4ouD+rEomujw==}
     dev: true
 
   /@types/json-schema@7.0.15:
