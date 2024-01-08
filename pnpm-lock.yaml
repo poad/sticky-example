@@ -4011,7 +4011,7 @@ packages:
       fs-extra: 11.2.0
       magic-string: 0.30.5
       react: 18.2.0
-      react-docgen: 7.0.1
+      react-docgen: 7.0.2
       react-dom: 18.2.0(react@18.2.0)
       react-refresh: 0.14.0
       semver: 7.5.4
@@ -10426,8 +10426,8 @@ packages:
       typescript: 5.3.3
     dev: true
 
-  /react-docgen@7.0.1:
-    resolution: {integrity: sha512-rCz0HBIT0LWbIM+///LfRrJoTKftIzzwsYDf0ns5KwaEjejMHQRtphcns+IXFHDNY9pnz6G8l/JbbI6pD4EAIA==}
+  /react-docgen@7.0.2:
+    resolution: {integrity: sha512-Lco0KbqCYk+19oiyNALvhqUk+Q1Q0un68V3SYKPw4GQY6vB4E1ilwCjoxiZT8cKADPt7HYSy+bz01OiliECQJw==}
     engines: {node: '>=16.14.0'}
     dependencies:
       '@babel/core': 7.23.7
