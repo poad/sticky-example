@@ -15,8 +15,8 @@ dependencies:
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.48)(react@18.2.0)
   '@mui/icons-material':
-    specifier: ^5.15.4
-    version: 5.15.4(@mui/material@5.15.5)(@types/react@18.2.48)(react@18.2.0)
+    specifier: ^5.15.5
+    version: 5.15.5(@mui/material@5.15.5)(@types/react@18.2.48)(react@18.2.0)
   '@mui/material':
     specifier: ^5.15.5
     version: 5.15.5(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
@@ -28,7 +28,7 @@ dependencies:
     version: 0.1.1(tailwindcss@3.4.1)
   material-react-table:
     specifier: ^2.6.1
-    version: 2.6.1(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.4)(@mui/material@5.15.5)(@mui/x-date-pickers@6.19.0)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.6.1(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.5)(@mui/material@5.15.5)(@mui/x-date-pickers@6.19.0)(react-dom@18.2.0)(react@18.2.0)
   next:
     specifier: ^14.0.4
     version: 14.0.4(@babel/core@7.23.7)(react-dom@18.2.0)(react@18.2.0)
@@ -89,8 +89,8 @@ devDependencies:
     specifier: ^6.19.0
     version: 6.19.0(eslint@8.56.0)(typescript@5.3.3)
   autoprefixer:
-    specifier: ^10.4.16
-    version: 10.4.16(postcss@8.4.33)
+    specifier: ^10.4.17
+    version: 10.4.17(postcss@8.4.33)
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -2309,8 +2309,8 @@ packages:
     resolution: {integrity: sha512-VhT8klyXy8GrWrARqLMoM6Nzz809Jc3Wn5wd7WOZfre2vFO1rBV1dBANAPBhBqpaQI0HCMRTWEYoSyOFgRnz4A==}
     dev: false
 
-  /@mui/icons-material@5.15.4(@mui/material@5.15.5)(@types/react@18.2.48)(react@18.2.0):
-    resolution: {integrity: sha512-q/Yk7aokN8qGMpR7bwoDpBSeaNe6Bv7vaY9yHYodP37c64TM6ime05ueb/wgksOVszrKkNXC67E/XYbRWOoUFA==}
+  /@mui/icons-material@5.15.5(@mui/material@5.15.5)(@types/react@18.2.48)(react@18.2.0):
+    resolution: {integrity: sha512-qiql0fd1JY7TZ1wm1RldvU7sL8QUatE9OC12i/qm5rnm/caTFyAfOyTIR7qqxorsJvoZGyrzwoMkal6Ij9kM0A==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@mui/material': ^5.0.0
@@ -3408,7 +3408,7 @@ packages:
       '@storybook/api': 7.6.9(react-dom@18.2.0)(react@18.2.0)
       '@storybook/components': 7.6.9(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-common': 7.6.9
-      '@storybook/core-events': 7.6.8
+      '@storybook/core-events': 7.6.9
       '@storybook/manager-api': 7.6.9(react-dom@18.2.0)(react@18.2.0)
       '@storybook/node-logger': 7.6.9
       '@storybook/preview-api': 7.6.9
@@ -3725,12 +3725,6 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
-    dev: true
-
-  /@storybook/core-events@7.6.8:
-    resolution: {integrity: sha512-c1onJHG71JKbU4hMZC31rVTSbcfhcXaB0ikGnb7rJzlUZ1YkWnb0wf0/ikQR0seDOpR3HS+WQ0M3FIpqANyETg==}
-    dependencies:
-      ts-dedent: 2.2.0
     dev: true
 
   /@storybook/core-events@7.6.9:
@@ -5387,8 +5381,8 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
 
-  /autoprefixer@10.4.16(postcss@8.4.33):
-    resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
+  /autoprefixer@10.4.17(postcss@8.4.33):
+    resolution: {integrity: sha512-/cpVNRLSfhOtcGflT13P2794gVSgmPgTR+erw5ifnMLZb0UnSlkK4tquLmkd3BhA+nLo5tX8Cu0upUsGKvKbmg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -5674,7 +5668,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001578
-      electron-to-chromium: 1.4.635
+      electron-to-chromium: 1.4.636
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
 
@@ -6202,7 +6196,7 @@ packages:
       icss-utils: 5.1.0(postcss@8.4.33)
       postcss: 8.4.33
       postcss-modules-extract-imports: 3.0.0(postcss@8.4.33)
-      postcss-modules-local-by-default: 4.0.3(postcss@8.4.33)
+      postcss-modules-local-by-default: 4.0.4(postcss@8.4.33)
       postcss-modules-scope: 3.1.0(postcss@8.4.33)
       postcss-modules-values: 4.0.0(postcss@8.4.33)
       postcss-value-parser: 4.2.0
@@ -6555,7 +6549,7 @@ packages:
       end-of-stream: 1.4.4
       inherits: 2.0.4
       readable-stream: 2.3.8
-      stream-shift: 1.0.2
+      stream-shift: 1.0.3
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -6573,8 +6567,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.635:
-    resolution: {integrity: sha512-iu/2D0zolKU3iDGXXxdOzNf72Jnokn+K1IN6Kk4iV6l1Tr2g/qy+mvmtfAiBwZe5S3aB5r92vp+zSZ69scYRrg==}
+  /electron-to-chromium@1.4.636:
+    resolution: {integrity: sha512-NLE0GIy1OL9wRiKL20h9TkctBEYZuc99tquSS9MVdTahnuHputoETHeqDzgqGqyOY9NUH0g9wjfEuw5OD+wRcQ==}
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -9047,7 +9041,7 @@ packages:
       react: 18.2.0
     dev: true
 
-  /material-react-table@2.6.1(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.4)(@mui/material@5.15.5)(@mui/x-date-pickers@6.19.0)(react-dom@18.2.0)(react@18.2.0):
+  /material-react-table@2.6.1(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/icons-material@5.15.5)(@mui/material@5.15.5)(@mui/x-date-pickers@6.19.0)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-b3X/dH5PTYMkLi23GF/oMyOC0oZbTBBW26KZRqvYJWqCLguYi1xE6Dv6VUrSMKf4yBvg00dXoUrH9zT9PLEZ9g==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -9061,7 +9055,7 @@ packages:
     dependencies:
       '@emotion/react': 11.11.3(@types/react@18.2.48)(react@18.2.0)
       '@emotion/styled': 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.48)(react@18.2.0)
-      '@mui/icons-material': 5.15.4(@mui/material@5.15.5)(@types/react@18.2.48)(react@18.2.0)
+      '@mui/icons-material': 5.15.5(@mui/material@5.15.5)(@types/react@18.2.48)(react@18.2.0)
       '@mui/material': 5.15.5(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@mui/x-date-pickers': 6.19.0(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@mui/material@5.15.5)(@mui/system@5.15.5)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/match-sorter-utils': 8.11.3
@@ -10059,8 +10053,8 @@ packages:
       postcss: 8.4.33
     dev: true
 
-  /postcss-modules-local-by-default@4.0.3(postcss@8.4.33):
-    resolution: {integrity: sha512-2/u2zraspoACtrbFRnTijMiQtb4GW4BvatjaG/bCjYQo8kLTdevCUlwuBHx2sCnSyrI3x3qj4ZK1j5LQBgzmwA==}
+  /postcss-modules-local-by-default@4.0.4(postcss@8.4.33):
+    resolution: {integrity: sha512-L4QzMnOdVwRm1Qb8m4x8jsZzKAaPAgrUF1r/hjDR2Xj7R+8Zsf97jAlSQzWtKx5YNiNGN8QxmPFIc/sh+RQl+Q==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
@@ -11305,8 +11299,8 @@ packages:
       xtend: 4.0.2
     dev: true
 
-  /stream-shift@1.0.2:
-    resolution: {integrity: sha512-rV4Bovi9xx0BFzOb/X0B2GqoIjvqPCttZdu0Wgtx2Dxkj7ETyWl9gmqJ4EutWRLvtZWm8dxE+InQZX1IryZn/w==}
+  /stream-shift@1.0.3:
+    resolution: {integrity: sha512-76ORR0DO1o1hlKwTbi/DM3EXWGf3ZJYO8cXX5RJwnul2DEg2oyoZyjLNoQM8WsvZiFKCRfC1O0J7iCvie3RZmQ==}
     dev: true
 
   /streamsearch@1.1.0:
