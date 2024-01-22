@@ -69,7 +69,7 @@ devDependencies:
     version: 7.6.10(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/nextjs':
     specifier: ^7.6.10
-    version: 7.6.10(@swc/core@1.3.104)(esbuild@0.17.19)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.89.0)
+    version: 7.6.10(@swc/core@1.3.105)(esbuild@0.17.19)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.89.0)
   '@storybook/react':
     specifier: ^7.6.10
     version: 7.6.10(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
@@ -156,7 +156,7 @@ devDependencies:
     version: 5.3.3
   typewind:
     specifier: ^0.1.4
-    version: 0.1.4(@swc/core@1.3.104)(postcss@8.4.33)(typescript@5.3.3)
+    version: 0.1.4(@swc/core@1.3.105)(postcss@8.4.33)(typescript@5.3.3)
 
 packages:
 
@@ -2691,7 +2691,7 @@ packages:
       react-refresh: 0.14.0
       schema-utils: 3.3.0
       source-map: 0.7.4
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /@polka/url@1.0.0-next.24:
@@ -3440,7 +3440,7 @@ packages:
       resolve-url-loader: 5.0.0
       sass-loader: 13.3.3(webpack@5.89.0)
       style-loader: 3.3.4(webpack@5.89.0)
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-dom'
@@ -3552,7 +3552,7 @@ packages:
       '@storybook/node-logger': 7.6.10
       '@storybook/preview': 7.6.10
       '@storybook/preview-api': 7.6.10
-      '@swc/core': 1.3.104
+      '@swc/core': 1.3.105
       '@types/node': 18.19.8
       '@types/semver': 7.5.6
       babel-loader: 9.1.3(@babel/core@7.23.7)(webpack@5.89.0)
@@ -3571,14 +3571,14 @@ packages:
       process: 0.11.10
       semver: 7.5.4
       style-loader: 3.3.4(webpack@5.89.0)
-      swc-loader: 0.2.3(@swc/core@1.3.104)(webpack@5.89.0)
-      terser-webpack-plugin: 5.3.10(@swc/core@1.3.104)(esbuild@0.17.19)(webpack@5.89.0)
+      swc-loader: 0.2.3(@swc/core@1.3.105)(webpack@5.89.0)
+      terser-webpack-plugin: 5.3.10(@swc/core@1.3.105)(esbuild@0.17.19)(webpack@5.89.0)
       ts-dedent: 2.2.0
       typescript: 5.3.3
       url: 0.11.3
       util: 0.12.5
       util-deprecate: 1.0.2
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
       webpack-dev-middleware: 6.1.1(webpack@5.89.0)
       webpack-hot-middleware: 2.26.0
       webpack-virtual-modules: 0.5.0
@@ -3902,7 +3902,7 @@ packages:
     resolution: {integrity: sha512-TXJJd5RAKakWx4BtpwvSNdgTDkKM6RkXU8GK34S/LhidQ5Pjz3wcnqb0TxEkfhK/ztbP8nKHqXFwLfa2CYkvQw==}
     dev: true
 
-  /@storybook/nextjs@7.6.10(@swc/core@1.3.104)(esbuild@0.17.19)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.89.0):
+  /@storybook/nextjs@7.6.10(@swc/core@1.3.105)(esbuild@0.17.19)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.89.0):
     resolution: {integrity: sha512-YfUr4+2BlZJMW7bo2W8nNcUFPbf0wTAfhRvCtJDGDu6ne2vjlLyRmDXY5S11YQdO6pd4W8GWHyWTX+bKKIX3qg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -3938,7 +3938,7 @@ packages:
       '@storybook/core-common': 7.6.10
       '@storybook/core-events': 7.6.10
       '@storybook/node-logger': 7.6.10
-      '@storybook/preset-react-webpack': 7.6.10(@babel/core@7.23.7)(@swc/core@1.3.104)(esbuild@0.17.19)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
+      '@storybook/preset-react-webpack': 7.6.10(@babel/core@7.23.7)(@swc/core@1.3.105)(esbuild@0.17.19)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@storybook/preview-api': 7.6.10
       '@storybook/react': 7.6.10(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@types/node': 18.19.8
@@ -3965,7 +3965,7 @@ packages:
       tsconfig-paths: 4.2.0
       tsconfig-paths-webpack-plugin: 4.1.0
       typescript: 5.3.3
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@swc/core'
@@ -3996,7 +3996,7 @@ packages:
     resolution: {integrity: sha512-SMdXtednPCy3+SRJ7oN1OPN1oVFhj3ih+ChOEX8/kZ5J3nfmV3wLPtsZvFGUCf0KWQEP1xL+1Urv48mzMKcV/w==}
     dev: true
 
-  /@storybook/preset-react-webpack@7.6.10(@babel/core@7.23.7)(@swc/core@1.3.104)(esbuild@0.17.19)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+  /@storybook/preset-react-webpack@7.6.10(@babel/core@7.23.7)(@swc/core@1.3.105)(esbuild@0.17.19)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-fUcr4dmXJdPIQdjkhA4bE8QF8Pavr4BSLxovtTRupbWxtRjZxJrH5hf+0HZycq1cp9umO/11Lsmw9Nx5Xg3Eww==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -4030,7 +4030,7 @@ packages:
       react-refresh: 0.14.0
       semver: 7.5.4
       typescript: 5.3.3
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     transitivePeerDependencies:
       - '@swc/core'
       - '@types/webpack'
@@ -4083,7 +4083,7 @@ packages:
       react-docgen-typescript: 2.2.2(typescript@5.3.3)
       tslib: 2.6.2
       typescript: 5.3.3
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4193,8 +4193,8 @@ packages:
       file-system-cache: 2.3.0
     dev: true
 
-  /@swc/core-darwin-arm64@1.3.104:
-    resolution: {integrity: sha512-rCnVj8x3kn6s914Adddu+zROHUn6mUEMkNKUckofs3W9OthNlZXJA3C5bS2MMTRFXCWamJ0Zmh6INFpz+f4Tfg==}
+  /@swc/core-darwin-arm64@1.3.105:
+    resolution: {integrity: sha512-buWeweLVDXXmcnfIemH4PGnpjwsDTUGitnPchdftb0u1FU8zSSP/lw/pUCBDG/XvWAp7c/aFxgN4CyG0j7eayA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
@@ -4202,8 +4202,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-darwin-x64@1.3.104:
-    resolution: {integrity: sha512-LBCWGTYkn1UjyxrmcLS3vZgtCDVhwxsQMV7jz5duc7Gas8SRWh6ZYqvUkjlXMDX1yx0uvzHrkaRw445+zDRj7Q==}
+  /@swc/core-darwin-x64@1.3.105:
+    resolution: {integrity: sha512-hFmXPApqjA/8sy/9NpljHVaKi1OvL9QkJ2MbbTCCbJERuHMpMUeMBUWipHRfepGHFhU+9B9zkEup/qJaJR4XIg==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
@@ -4211,8 +4211,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm-gnueabihf@1.3.104:
-    resolution: {integrity: sha512-iFbsWcx0TKHWnFBNCuUstYqRtfkyBx7FKv5To1Hx14EMuvvoCD/qUoJEiNfDQN5n/xU9g5xq4RdbjEWCFLhAbA==}
+  /@swc/core-linux-arm-gnueabihf@1.3.105:
+    resolution: {integrity: sha512-mwXyMC41oMKkKrPpL8uJpOxw7fyfQoVtIw3Y5p0Blabk+espNYqix0E8VymHdRKuLmM//z5wVmMsuHdGBHvZeg==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
@@ -4220,8 +4220,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm64-gnu@1.3.104:
-    resolution: {integrity: sha512-1BIIp+nUPrRHHaJ35YJqrwXPwYSITp5robqqjyTwoKGw2kq0x+A964kpWul6v0d7A9Ial8fyH4m13eSWBodD2A==}
+  /@swc/core-linux-arm64-gnu@1.3.105:
+    resolution: {integrity: sha512-H7yEIVydnUtqBSUxwmO6vpIQn7j+Rr0DF6ZOORPyd/SFzQJK9cJRtmJQ3ZMzlJ1Bb+1gr3MvjgLEnmyCYEm2Hg==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -4229,8 +4229,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm64-musl@1.3.104:
-    resolution: {integrity: sha512-IyDNkzpKwvLqmRwTW+s8f8OsOSSj1N6juZKbvNHpZRfWZkz3T70q3vJlDBWQwy8z8cm7ckd7YUT3eKcSBPPowg==}
+  /@swc/core-linux-arm64-musl@1.3.105:
+    resolution: {integrity: sha512-Jg7RTFT3pGFdGt5elPV6oDkinRy7q9cXpenjXnJnM2uvx3jOwnsAhexPyCDHom8SHL0j+9kaLLC66T3Gz1E4UA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -4238,8 +4238,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-x64-gnu@1.3.104:
-    resolution: {integrity: sha512-MfX/wiRdTjE5uXHTDnaX69xI4UBfxIhcxbVlMj//N+7AX/G2pl2UFityfVMU2HpM12BRckrCxVI8F/Zy3DZkYQ==}
+  /@swc/core-linux-x64-gnu@1.3.105:
+    resolution: {integrity: sha512-DJghplpyusAmp1X5pW/y93MmS/u83Sx5GrpJxI6KLPa82+NItTgMcl8KBQmW5GYAJpVKZyaIvBanS5TdR8aN2w==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -4247,8 +4247,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-x64-musl@1.3.104:
-    resolution: {integrity: sha512-5yeILaxA31gGEmquErO8yxlq1xu0XVt+fz5mbbKXKZMRRILxYxNzAGb5mzV41r0oHz6Vhv4AXX/WMCmeWl+HkQ==}
+  /@swc/core-linux-x64-musl@1.3.105:
+    resolution: {integrity: sha512-wD5jL2dZH/5nPNssBo6jhOvkI0lmWnVR4vnOXWjuXgjq1S0AJpO5jdre/6pYLmf26hft3M42bteDnjR4AAZ38w==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -4256,8 +4256,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-arm64-msvc@1.3.104:
-    resolution: {integrity: sha512-rwcImsYnWDWGmeESG0XdGGOql5s3cG5wA8C4hHHKdH76zamPfDKKQFBsjmoNi0f1IsxaI9AJPeOmD4bAhT1ZoQ==}
+  /@swc/core-win32-arm64-msvc@1.3.105:
+    resolution: {integrity: sha512-UqJtwILUHRw2+3UTPnRkZrzM/bGdQtbR4UFdp79mZQYfryeOUVNg7aJj/bWUTkKtLiZ3o+FBNrM/x2X1mJX5bA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
@@ -4265,8 +4265,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-ia32-msvc@1.3.104:
-    resolution: {integrity: sha512-ICDA+CJLYC7NkePnrbh/MvXwDQfy3rZSFgrVdrqRosv9DKHdFjYDnA9++7ozjrIdFdBrFW2NR7pyUcidlwhNzA==}
+  /@swc/core-win32-ia32-msvc@1.3.105:
+    resolution: {integrity: sha512-Z95C6vZgBEJ1snidYyjVKnVWiy/ZpPiIFIXGWkDr4ZyBgL3eZX12M6LzZ+NApHKffrbO4enbFyFomueBQgS2oA==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
@@ -4274,8 +4274,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-x64-msvc@1.3.104:
-    resolution: {integrity: sha512-fZJ1Ju62U4lMZVU+nHxLkFNcu0hG5Y0Yj/5zjrlbuX5N8J5eDndWAFsVnQhxRTZqKhZB53pvWRQs5FItSDqgXg==}
+  /@swc/core-win32-x64-msvc@1.3.105:
+    resolution: {integrity: sha512-3J8fkyDPFsS3mszuYUY4Wfk7/B2oio9qXUwF3DzOs2MK+XgdyMLIptIxL7gdfitXJBH8k39uVjrIw1JGJDjyFA==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
@@ -4283,8 +4283,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core@1.3.104:
-    resolution: {integrity: sha512-9LWH/qzR/Pmyco+XwPiPfz59T1sryI7o5dmqb593MfCkaX5Fzl9KhwQTI47i21/bXYuCdfa9ySZuVkzXMirYxA==}
+  /@swc/core@1.3.105:
+    resolution: {integrity: sha512-me2VZyr3OjqRpFrYQJJYy7x/zbFSl9nt+MAGnIcBtjDsN00iTVqEaKxBjPBFQV9BDAgPz2SRWes/DhhVm5SmMw==}
     engines: {node: '>=10'}
     requiresBuild: true
     peerDependencies:
@@ -4296,16 +4296,16 @@ packages:
       '@swc/counter': 0.1.2
       '@swc/types': 0.1.5
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.3.104
-      '@swc/core-darwin-x64': 1.3.104
-      '@swc/core-linux-arm-gnueabihf': 1.3.104
-      '@swc/core-linux-arm64-gnu': 1.3.104
-      '@swc/core-linux-arm64-musl': 1.3.104
-      '@swc/core-linux-x64-gnu': 1.3.104
-      '@swc/core-linux-x64-musl': 1.3.104
-      '@swc/core-win32-arm64-msvc': 1.3.104
-      '@swc/core-win32-ia32-msvc': 1.3.104
-      '@swc/core-win32-x64-msvc': 1.3.104
+      '@swc/core-darwin-arm64': 1.3.105
+      '@swc/core-darwin-x64': 1.3.105
+      '@swc/core-linux-arm-gnueabihf': 1.3.105
+      '@swc/core-linux-arm64-gnu': 1.3.105
+      '@swc/core-linux-arm64-musl': 1.3.105
+      '@swc/core-linux-x64-gnu': 1.3.105
+      '@swc/core-linux-x64-musl': 1.3.105
+      '@swc/core-win32-arm64-msvc': 1.3.105
+      '@swc/core-win32-ia32-msvc': 1.3.105
+      '@swc/core-win32-x64-msvc': 1.3.105
     dev: true
 
   /@swc/counter@0.1.2:
@@ -5450,7 +5450,7 @@ packages:
       '@babel/core': 7.23.7
       find-cache-dir: 4.0.0
       schema-utils: 4.2.0
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /babel-plugin-add-react-displayname@0.0.5:
@@ -6216,7 +6216,7 @@ packages:
       postcss-modules-values: 4.0.0(postcss@8.4.33)
       postcss-value-parser: 4.2.0
       semver: 7.5.4
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /css-select@4.3.0:
@@ -7586,7 +7586,7 @@ packages:
       semver: 7.5.4
       tapable: 2.2.1
       typescript: 5.3.3
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /form-data@4.0.0:
@@ -8029,7 +8029,7 @@ packages:
       lodash: 4.17.21
       pretty-error: 4.0.0
       tapable: 2.2.1
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /htmlparser2@6.1.0:
@@ -8760,7 +8760,7 @@ packages:
       webpack: ^5.0.0
     dependencies:
       less: 4.2.0
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /less@4.2.0:
@@ -9492,7 +9492,7 @@ packages:
       url: 0.11.3
       util: 0.12.5
       vm-browserify: 1.1.2
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /node-releases@2.0.14:
@@ -10051,7 +10051,7 @@ packages:
       jiti: 1.21.0
       postcss: 8.4.33
       semver: 7.5.4
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -10960,7 +10960,7 @@ packages:
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /sass-loader@13.3.3(webpack@5.89.0):
@@ -10983,7 +10983,7 @@ packages:
         optional: true
     dependencies:
       neo-async: 2.6.2
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /sax@1.3.0:
@@ -11460,7 +11460,7 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /styled-jsx@5.1.1(@babel/core@7.23.7)(react@18.2.0):
@@ -11521,14 +11521,14 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /swc-loader@0.2.3(@swc/core@1.3.104)(webpack@5.89.0):
+  /swc-loader@0.2.3(@swc/core@1.3.105)(webpack@5.89.0):
     resolution: {integrity: sha512-D1p6XXURfSPleZZA/Lipb3A8pZ17fP4NObZvFCDjK/OKljroqDpPmsBdTraWhVBqUNpcWBQY1imWdoPScRlQ7A==}
     peerDependencies:
       '@swc/core': ^1.2.147
       webpack: '>=2'
     dependencies:
-      '@swc/core': 1.3.104
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      '@swc/core': 1.3.105
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /synchronous-promise@2.0.17:
@@ -11647,7 +11647,7 @@ packages:
       unique-string: 2.0.0
     dev: true
 
-  /terser-webpack-plugin@5.3.10(@swc/core@1.3.104)(esbuild@0.17.19)(webpack@5.89.0):
+  /terser-webpack-plugin@5.3.10(@swc/core@1.3.105)(esbuild@0.17.19)(webpack@5.89.0):
     resolution: {integrity: sha512-BKFPWlPDndPs+NGGCr1U59t0XScL5317Y0UReNrHaw9/FwhPENlq6bfgs+4yPfyP51vqC1bQ4rp1EfXW5ZSH9w==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -11664,13 +11664,13 @@ packages:
         optional: true
     dependencies:
       '@jridgewell/trace-mapping': 0.3.22
-      '@swc/core': 1.3.104
+      '@swc/core': 1.3.105
       esbuild: 0.17.19
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
       terser: 5.27.0
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /terser@5.27.0:
@@ -11849,7 +11849,7 @@ packages:
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  /tsup@6.7.0(@swc/core@1.3.104)(postcss@8.4.33)(typescript@5.3.3):
+  /tsup@6.7.0(@swc/core@1.3.105)(postcss@8.4.33)(typescript@5.3.3):
     resolution: {integrity: sha512-L3o8hGkaHnu5TdJns+mCqFsDBo83bJ44rlK7e6VdanIvpea4ArPcU3swWGsLVbXak1PqQx/V+SSmFPujBK+zEQ==}
     engines: {node: '>=14.18'}
     hasBin: true
@@ -11865,7 +11865,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@swc/core': 1.3.104
+      '@swc/core': 1.3.105
       bundle-require: 4.0.2(esbuild@0.17.19)
       cac: 6.7.14
       chokidar: 3.5.3
@@ -12000,7 +12000,7 @@ packages:
     hasBin: true
     dev: true
 
-  /typewind@0.1.4(@swc/core@1.3.104)(postcss@8.4.33)(typescript@5.3.3):
+  /typewind@0.1.4(@swc/core@1.3.105)(postcss@8.4.33)(typescript@5.3.3):
     resolution: {integrity: sha512-7q32a70aYhjpB1x0YiOBuD/nfDl4oQZDGzPqnEzJbapNQEEJk8PZYOrLgzPHYb4FEH2HCinf7Of5IWOsptgrOQ==}
     hasBin: true
     dependencies:
@@ -12010,7 +12010,7 @@ packages:
       '@babel/preset-typescript': 7.23.3(@babel/core@7.23.7)
       eval: 0.1.8
       lightningcss: 1.23.0
-      tsup: 6.7.0(@swc/core@1.3.104)(postcss@8.4.33)(typescript@5.3.3)
+      tsup: 6.7.0(@swc/core@1.3.105)(postcss@8.4.33)(typescript@5.3.3)
     transitivePeerDependencies:
       - '@swc/core'
       - postcss
@@ -12302,7 +12302,7 @@ packages:
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.2.0
-      webpack: 5.89.0(@swc/core@1.3.104)(esbuild@0.17.19)
+      webpack: 5.89.0(@swc/core@1.3.105)(esbuild@0.17.19)
     dev: true
 
   /webpack-hot-middleware@2.26.0:
@@ -12326,7 +12326,7 @@ packages:
     resolution: {integrity: sha512-poXpCylU7ExuvZK8z+On3kX+S8o/2dQ/SVYueKA0D4WEMXROXgY8Ez50/bQEUmvoSMMrWcrJqCHuhAbsiwg7Dg==}
     dev: true
 
-  /webpack@5.89.0(@swc/core@1.3.104)(esbuild@0.17.19):
+  /webpack@5.89.0(@swc/core@1.3.105)(esbuild@0.17.19):
     resolution: {integrity: sha512-qyfIC10pOr70V+jkmud8tMfajraGCZMBWJtrmuBymQKCrLTRejBI8STDp1MCyZu/QTdZSeacCQYpYNQVOzX5kw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -12357,7 +12357,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(@swc/core@1.3.104)(esbuild@0.17.19)(webpack@5.89.0)
+      terser-webpack-plugin: 5.3.10(@swc/core@1.3.105)(esbuild@0.17.19)(webpack@5.89.0)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
