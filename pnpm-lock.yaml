@@ -3408,7 +3408,7 @@ packages:
       '@storybook/api': 7.6.12(react-dom@18.2.0)(react@18.2.0)
       '@storybook/components': 7.6.12(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-common': 7.6.12
-      '@storybook/core-events': 7.6.11
+      '@storybook/core-events': 7.6.12
       '@storybook/manager-api': 7.6.12(react-dom@18.2.0)(react@18.2.0)
       '@storybook/node-logger': 7.6.12
       '@storybook/preview-api': 7.6.12
@@ -3552,7 +3552,7 @@ packages:
       fork-ts-checker-webpack-plugin: 8.0.0(typescript@5.3.3)(webpack@5.90.0)
       fs-extra: 11.2.0
       html-webpack-plugin: 5.6.0(webpack@5.90.0)
-      magic-string: 0.30.5
+      magic-string: 0.30.6
       path-browserify: 1.0.1
       process: 0.11.10
       semver: 7.5.4
@@ -3726,12 +3726,6 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
-    dev: true
-
-  /@storybook/core-events@7.6.11:
-    resolution: {integrity: sha512-7Bg9hjIaZlHCAvoVjYCl7C+16ZVvciqC0hQhJCYYCVpiVYoXA1jAB6sE1gsaDeWYtzfkLHgQEytRj6Ot3e2rfQ==}
-    dependencies:
-      ts-dedent: 2.2.0
     dev: true
 
   /@storybook/core-events@7.6.12:
@@ -4015,7 +4009,7 @@ packages:
       '@types/semver': 7.5.6
       babel-plugin-add-react-displayname: 0.0.5
       fs-extra: 11.2.0
-      magic-string: 0.30.5
+      magic-string: 0.30.6
       react: 18.2.0
       react-docgen: 7.0.3
       react-dom: 18.2.0(react@18.2.0)
@@ -5675,7 +5669,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001581
-      electron-to-chromium: 1.4.651
+      electron-to-chromium: 1.4.652
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.3)
 
@@ -6584,8 +6578,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.651:
-    resolution: {integrity: sha512-jjks7Xx+4I7dslwsbaFocSwqBbGHQmuXBJUK9QBZTIrzPq3pzn6Uf2szFSP728FtLYE3ldiccmlkOM/zhGKCpA==}
+  /electron-to-chromium@1.4.652:
+    resolution: {integrity: sha512-XvQaa8hVUAuEJtLw6VKQqvdOxTOfBLWfI10t2xWpezx4XXD3k8bdLweEKeItqaa0+OkJX5l0mP1W+JWobyIDrg==}
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -9011,8 +9005,8 @@ packages:
     hasBin: true
     dev: true
 
-  /magic-string@0.30.5:
-    resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==}
+  /magic-string@0.30.6:
+    resolution: {integrity: sha512-n62qCLbPjNjyo+owKtveQxZFZTBm+Ms6YoGD23Wew6Vw337PElFNifQpknPruVRQV57kVShPnLGo9vWxVhpPvA==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
