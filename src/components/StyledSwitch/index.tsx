@@ -38,7 +38,7 @@ export const StyledSwitch = styled((props: SwitchProps) => (
     },
   },
   '& .MuiSwitch-thumb': {
-    boxSizing: 'border-box',
+    // boxSizing: 'border-box',
     width: 22,
     height: 22,
   },
