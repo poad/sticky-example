@@ -1,5 +1,0 @@
-**/*.d.ts
-next.config.js
-postcss.config.cjs
-stylelint.config.js
-tailwind.config.js
