@@ -42,14 +42,14 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.2.5",
-    "@storybook/addon-essentials": "^8.2.8",
-    "@storybook/addon-interactions": "^8.2.8",
-    "@storybook/addon-links": "^8.2.8",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
     "@storybook/addon-styling-webpack": "^1.0.0",
-    "@storybook/addon-themes": "^8.2.8",
-    "@storybook/blocks": "^8.2.8",
-    "@storybook/nextjs": "^8.2.8",
-    "@storybook/react": "^8.2.8",
+    "@storybook/addon-themes": "^8.2.9",
+    "@storybook/blocks": "^8.2.9",
+    "@storybook/nextjs": "^8.2.9",
+    "@storybook/react": "^8.2.9",
     "@storybook/testing-library": "^0.2.2",
     "@types/node": "^20.14.15",
     "@types/react": "^18.3.3",
@@ -74,8 +74,8 @@
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "rimraf": "^5.0.10",
-    "storybook": "^8.2.8",
-    "tailwindcss": "^3.4.9",
+    "storybook": "^8.2.9",
+    "tailwindcss": "^3.4.10",
     "typescript": "^5.5.4",
     "typewind": "^0.1.6"
   },
@@ -87,5 +87,5 @@
   "msw": {
     "workerDirectory": ".storybook/public"
   },
-  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
 }
