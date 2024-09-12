@@ -44,7 +44,6 @@ export default tseslint.config(
       '@stylistic/jsx': stylisticJsx,
     },
     extends: [
-      // @ts-ignore
       ...compat.config(reactHooksPlugin.configs.recommended),
       ...compat.config(jsxA11yPlugin.configs.recommended),
     ],
@@ -61,7 +60,7 @@ export default tseslint.config(
         typescript: {},
       },
     },
-    // @ts-ignore
+    // @ts-expect-error ignore type errors
     rules: {
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs['core-web-vitals'].rules,
