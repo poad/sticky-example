@@ -1,7 +1,7 @@
 'use client';
 import { Box, Typography, Paper } from '@mui/material';
 import { MaterialReactTable, type MRT_ColumnDef } from 'material-react-table';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { data } from './data';
 
 interface Data {
@@ -30,6 +30,8 @@ function Home() {
     ],
     [],
   );
+  const [ isFullScreen, setIsFullScreen ] = useState(false);
+  const [ height, setHeight ] = useState('calc(100vh - 80px - 64px - 4.5rem - 56px - 30px)');
 
   return (
     <>
@@ -58,13 +60,28 @@ function Home() {
 
         <Paper elevation={0}>
           <MaterialReactTable
-            muiTableContainerProps={{ sx: { height: 'calc(100vh - 64px)' } }}
+            muiTableContainerProps={{
+              sx: {
+                height,
+              }
+            }}
             columns={columns}
             data={data}
             enableRowNumbers
             enableRowVirtualization
             enablePagination={false}
             enableBottomToolbar={false}
+            state={{
+              isFullScreen,
+            }}
+            onIsFullScreenChange={(isFullScreen) => {
+              setIsFullScreen(isFullScreen);
+              if (isFullScreen) {
+                setHeight('100vh');
+              } else {
+                setHeight('calc(100vh - 80px - 64px - 4.5rem - 56px - 30px)');
+              }
+            }}
           />
         </Paper>
       </Box>
