@@ -2,6 +2,7 @@
 
 import { ReactNode, useState } from 'react';
 import { CssBaseline, ThemeProvider, useMediaQuery } from '@mui/material';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { darkTheme, lightTheme } from './theme';
 import { Menu } from '../components/Menu';
 import { Header } from '../components/Header';
@@ -41,7 +42,9 @@ export default function Layout({ children }: { children: ReactNode }) {
             onThemeChange={setDarkMode}
           />
           <Menu width={drawerWidth} open={open} onClose={handleDrawerToggle} />
-          {children}
+          <AppRouterCacheProvider>
+            {children}
+          </AppRouterCacheProvider>
           <Footer />
         </ThemeProvider>
       </body>
