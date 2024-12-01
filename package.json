@@ -28,7 +28,7 @@
     "@mui/icons-material": "^6.1.9",
     "@mui/material": "^6.1.9",
     "@mui/material-nextjs": "^6.1.9",
-    "@mui/x-date-pickers": "^7.22.3",
+    "@mui/x-date-pickers": "^7.23.0",
     "@tailwindcss/container-queries": "^0.1.1",
     "material-react-table": "^3.0.1",
     "next": "^15.0.3",
@@ -40,15 +40,15 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^15.0.3",
-    "@storybook/addon-essentials": "^8.4.5",
-    "@storybook/addon-interactions": "^8.4.5",
-    "@storybook/addon-links": "^8.4.5",
+    "@storybook/addon-essentials": "^8.4.6",
+    "@storybook/addon-interactions": "^8.4.6",
+    "@storybook/addon-links": "^8.4.6",
     "@storybook/addon-styling-webpack": "^1.0.1",
-    "@storybook/addon-themes": "^8.4.5",
-    "@storybook/blocks": "^8.4.5",
-    "@storybook/nextjs": "^8.4.5",
-    "@storybook/react": "^8.4.5",
-    "@storybook/test": "^8.4.5",
+    "@storybook/addon-themes": "^8.4.6",
+    "@storybook/blocks": "^8.4.6",
+    "@storybook/nextjs": "^8.4.6",
+    "@storybook/react": "^8.4.6",
+    "@storybook/test": "^8.4.6",
     "@stylistic/eslint-plugin": "^2.11.0",
     "@stylistic/eslint-plugin-js": "^2.11.0",
     "@stylistic/eslint-plugin-jsx": "^2.11.0",
@@ -70,7 +70,7 @@
     "msw-storybook-addon": "^2.0.4",
     "postcss": "^8.4.49",
     "rimraf": "^6.0.1",
-    "storybook": "^8.4.5",
+    "storybook": "^8.4.6",
     "tailwindcss": "^3.4.15",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.16.0"
@@ -83,5 +83,5 @@
   "msw": {
     "workerDirectory": ".storybook/public"
   },
-  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
 }
