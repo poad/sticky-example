@@ -17,5 +17,5 @@ export default {
       },
     },
   },
-  plugins: [require('@tailwindcss/container-queries')],
+  plugins: [import('@tailwindcss/container-queries')],
 };
