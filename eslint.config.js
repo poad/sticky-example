@@ -42,6 +42,7 @@ export default tseslint.config(
       '@stylistic/jsx': stylisticJsx,
     },
     extends: [
+      // @ts-expect-error ignore type errors
       ...compat.config(reactHooksPlugin.configs.recommended),
       ...compat.config(jsxA11yPlugin.configs.recommended),
     ],

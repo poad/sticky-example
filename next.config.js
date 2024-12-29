@@ -4,7 +4,6 @@ import withBundleAnalyzer from '@next/bundle-analyzer';
 const config = {
   output: 'export',
   reactStrictMode: true,
-  swcMinify: true,
   compiler: {
     emotion: true,
   },
@@ -23,6 +22,6 @@ const config = {
 };
 
 export default withBundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
+  enabled: import.meta.env?.ANALYZE === 'true',
 })(config);
 
