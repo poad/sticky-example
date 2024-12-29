@@ -13,12 +13,7 @@
     "lint": "eslint ./src/**/*{.ts,.tsx}",
     "lint-fix": "eslint --fix ./src/**/*{.ts,.tsx}",
     "analyze": "ANALYZE=true next build",
-    "all": "pnpm lint && pnpm build && pnpm test",
-    "prelint": "pnpm install",
-    "prelint-fix": "pnpm install",
-    "prebuild": "pnpm install",
-    "predev": "pnpm install",
-    "pregenerate": "pnpm install"
+    "all": "pnpm lint && pnpm build && pnpm test"
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",
