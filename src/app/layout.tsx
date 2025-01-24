@@ -1,12 +1,12 @@
 'use client';
 
+import './layout.css';
 import { ReactNode, useState } from 'react';
 import { CssBaseline, ThemeProvider, useMediaQuery } from '@mui/material';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { darkTheme, lightTheme } from './theme';
 import { Menu } from '../components/Menu';
 import { Header } from '../components/Header';
-import './layout.css';
 import { Footer } from '../components/Footer';
 
 const drawerWidth = 240;
