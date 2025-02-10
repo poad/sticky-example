@@ -52,7 +52,7 @@
     "@stylistic/eslint-plugin-jsx": "^3.1.0",
     "@stylistic/eslint-plugin-plus": "^3.1.0",
     "@stylistic/eslint-plugin-ts": "^3.1.0",
-    "@tailwindcss/postcss": "^4.0.5",
+    "@tailwindcss/postcss": "^4.0.6",
     "@types/node": "^22.13.1",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
@@ -72,7 +72,7 @@
     "postcss": "^8.5.1",
     "rimraf": "^6.0.1",
     "storybook": "^8.5.3",
-    "tailwindcss": "^4.0.5",
+    "tailwindcss": "^4.0.6",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.23.0"
   },
